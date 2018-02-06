@@ -1,0 +1,67 @@
+{
+    "about": [
+        {
+            "title": "About Us"
+        },
+        {
+            "str1": "We have a team of professionals ranging from architects to project managers - who work in conjunction to product quality workmanship and ensure projects run to plan."
+        },
+        {
+            "str2": "Our team are responsible for design, procurement, onsite operations and works management. Our personnel are highly skilled and professional - working to our high standards of professionalism."
+        },
+        {
+            "img": {
+                "src": "./img/about.jpg",
+                "alt": "Workers discussion"
+            }
+        }
+    ],
+    "careers": [
+        {
+            "title": "Careers"
+        },
+        {
+            "str1": "The people are Mainland create ideas and investment opportunities. They create the kind of ideas that make a house a home, and a vision into reality. The diversity and passion of our workforce is something we at Mainland value and cherish, for it is through our workforce we are able to deliver the high levels of service that our customers have come to expect."
+        },
+        {
+            "str2": "As part of Mainland you can help us create opportunities that make a difference to the lives of many"
+        },
+        {
+            "str3": "Mainland are always on the lookout for fresh talent. Whether you're a graduate or a established professional within project management or architecture, we'd like to hear from you."
+        },
+        {
+            "str4": "Please send CV's to: info@mainlandconsultants.co.uk"
+        }
+    ],
+    "projects": {
+        "str1": "With our construction partners and supply chain, we are able to construct and refurbish for both public and private sector clients.",
+        "str2": "Whether its creating a new building - or breathing new life into an existing one. We aspire to make reality a vision that is shared by both the client, and the designer. Resulting in a construction that is befitting to the people who will use it.",
+        "carousel": [
+            {
+                "id": "pj1",
+                "title": "Imperial Crescent",
+                "src": "./img/design.jpg",
+                "alt": "some alt"
+            },
+            {
+                "id": "pj2",
+                "title": "Venue Central",
+                "src": "./img/construction.jpg",
+                "alt": "some alt"
+
+            },
+            {
+                "id": "pj3",
+                "title": "Asim's Yard",
+                "src": "./img/investment.jpg",
+                "alt": "some alt"
+            },
+            {
+                "id": "pj4",
+                "title": "Westbourne Pharmacy",
+                "src": "./img/management.jpg",
+                "alt": "some alt"
+            }
+        ]
+    }
+}
