@@ -41,26 +41,26 @@
                 "id": "pj1",
                 "title": "Imperial Crescent",
                 "src": "./img/design.jpg",
-                "alt": "some alt"
+                "alt": "drawing on blue print"
             },
             {
                 "id": "pj2",
                 "title": "Venue Central",
                 "src": "./img/construction.jpg",
-                "alt": "some alt"
+                "alt": "bricklayer laying bricks"
 
             },
             {
                 "id": "pj3",
                 "title": "Asim's Yard",
                 "src": "./img/investment.jpg",
-                "alt": "some alt"
+                "alt": "two people handshaking in agreement"
             },
             {
                 "id": "pj4",
                 "title": "Westbourne Pharmacy",
                 "src": "./img/management.jpg",
-                "alt": "some alt"
+                "alt": "people discussing details and ideas"
             }
         ]
     }
