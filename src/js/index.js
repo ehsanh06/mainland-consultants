@@ -152,10 +152,7 @@ $(function () {
         imgModalInformation($(this));
         $(projects).show();
     });
-
-
-
-
+    
 
     $(close).on('click', function (e) {
 
