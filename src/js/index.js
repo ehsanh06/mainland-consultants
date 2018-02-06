@@ -41,7 +41,7 @@ $(function () {
 
 
             imgModalInformation = function (x) {
-                // Projects 
+                // Projects JSON data
                 var projectsTitle = '',
                     projectsStr1 = '<p class="str1">' + data.projects.str1 + '</p>',
                     projectsStr2 = '<p class="str2">' + data.projects.str2 + '</p>',
@@ -49,7 +49,7 @@ $(function () {
                     projectImgAlt = '';
                 // console.log(el);
 
-                console.log(data.projects.carousel);
+               // console.log(data.projects.carousel);
 
                 for (var i = 0; i < data.projects.carousel.length; i++) {
 
