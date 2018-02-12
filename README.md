@@ -9,3 +9,7 @@ HTML5, CSS3, SASS, JavaScript, jQuery, Gulp, Photoshop
 
 The site is fully functional on Google Chrome, FireFox, Microsoft Edge and IE 11.  
 Not tested on Safari. 
+
+jQuery 1.12 was used in order for the site because when Internet Explorer runs in compatibility view, it emulates IE8 which is incompatible with the latest version of jQuery (only the 1.x versions of jQuery are compatible with older versions of IE).
+
+More info on this can be found here https://stackoverflow.com/questions/40178845/ie11-jquery-error
