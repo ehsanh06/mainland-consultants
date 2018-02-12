@@ -1,0 +1,96 @@
+@import "colors.scss";
+
+.modal {
+    display: none;
+    position: absolute;
+    border: 1px solid rgba(136, 136, 136, 0.432);
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: white;
+    z-index: 2;
+    max-width: 940px;
+    margin: 0 auto;
+    height: 450px;
+
+    svg {
+        position: absolute;
+        top: 35px;
+        right: 28px;
+        cursor: pointer;
+    }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .modal{
+        left: 500px;
+    }
+}
+
+.about-modal h3, .careers-modal h3, .portfolio-modal h3 {
+    width: auto;
+    height: 70px;
+    line-height: 70px;
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    overflow-y: auto;
+    height: calc(100% - 70px);
+}
+.content .string-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px 28px;
+}
+.string-content p {
+    padding-bottom: 15px;
+}
+.content .img-container {padding-top: 20px;}
+.content .img-container img {
+    max-width: 85%;
+}
+
+@media screen and (min-width : 320px) and (max-width : 525px) {
+    .modal {
+        height: 100vh;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        position: fixed;
+        margin-top: 0;
+    }
+    .content {
+        display: block;
+    }
+    .about-modal h3, .careers-modal h3, .portfolio-modal h3 {
+        width: auto;
+    }
+    .content .img-container {
+        padding-top: 0px;
+        padding-left: 28px;
+    }
+}
+
+@media only screen and (min-width: 526px) and (max-width: 669px) {
+    .content .img-container {
+        display: none;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .modal {
+        width: 768px;
+        top: 35px;
+    }
+}
+@media only screen and (max-width : 768px) {
+    .modal {
+        top: 0;
+    }
+}    

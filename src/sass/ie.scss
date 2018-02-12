@@ -1,0 +1,111 @@
+@import "colors.scss";
+@import "mixins.scss";
+
+//  Needed for Contact section and footer of MS Edge
+
+// Globals
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: $bc;
+    font-family: "Oxygen", sans-serif;
+    line-height: 1.6;
+}
+
+section,
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+
+h3 {
+    @include title-style;
+}
+
+.hidden {
+    display: none;
+}
+
+.mask {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background: rgba(55, 55, 211, 0.3);
+}
+
+// Contact Us 
+section#contact, section#contact > .container {
+    max-width: none;
+    width: 100%;
+}
+
+.contact-title {
+    padding: 20px 0 30px 20px;
+    margin: 30px 430px auto;
+}
+
+// Google Maps
+#map {
+    height: 500px;
+    width: 100%;
+    background-color: grey;
+}
+.contact-info { padding: 4em 0; }
+.col-cell ul { list-style: none; }
+.col-cell ul li.underline { 
+    text-decoration: underline; 
+    margin-bottom: 15px;
+}
+
+.col-cell { padding: 5px 0;} 
+.col-cell > span { color: #9a9a9a;}
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    
+}
+
+// Footer
+footer {
+
+    background: #4a4a4a;
+    color: white;
+    padding-bottom: 15vh;
+
+    div {
+
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-grow: 1;
+
+        small {
+            align-self: center;
+        }
+
+    }
+
+    .nav {
+        ul {
+            list-style: none;
+            height: 80px;
+            line-height: 80px;
+            li {
+                display: inline-block;
+                margin-right: 26px;
+                font-family: $fonts;
+                font-size: 14px;
+            }
+        }
+    }
+}
